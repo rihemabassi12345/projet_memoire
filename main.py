@@ -60,4 +60,4 @@ modele_tflite = convertisseur.convert()
 
 with open(CHEMIN_MODELE_TFLITE, "wb") as f:
     f.write(modele_tflite)
-print(f"✅ hello{CHEMIN_MODELE_TFLITE}")
+print(f"✅ hiii{CHEMIN_MODELE_TFLITE}")
