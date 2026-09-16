@@ -5,8 +5,7 @@ from tensorflow import keras
 from tensorflow.keras import layers
 import cv2
 
-# ==== 1️⃣ Chargement des données (supposons que vous avez des images classées dans des dossiers) ====
-CHEMIN_DONNEES = "datasets/"  # Indiquez le bon chemin ici
+CHEMIN_DONNEES = "datasets/"
 TAILLE_IMG = 48  # Taille d'image souhaitée
 
 def charger_images(chemin_donnees):
