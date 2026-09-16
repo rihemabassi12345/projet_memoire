@@ -4,6 +4,6 @@ fichiers_videos = []
 for racine, dossiers, fichiers in os.walk(DOSSIER_VIDEOS):
     for fichier in fichiers:
         if fichier.lower().endswith(('.mp4', '.avi', '.mov')):
-            fichiers_videos.append(os.path.join(racine, fichier))
+            fichiers_videos.append(os.path.join(racine, fichier)) 
 
 print("Fichiers vidéo trouvés :", fichiers_videos)
